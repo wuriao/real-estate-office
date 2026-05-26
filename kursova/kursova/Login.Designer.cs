@@ -48,6 +48,7 @@
             label1.TabIndex = 0;
             label1.Text = "Реєстрація/Вхід";
             label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Click += label1_Click;
             // 
             // Surname
             // 
@@ -140,7 +141,7 @@
             Controls.Add(Surname);
             Controls.Add(label1);
             Name = "Login";
-            Text = "Login";
+            Text = "Реєстрація/Вхід";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

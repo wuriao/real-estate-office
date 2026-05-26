@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/Элементы решения/">
+    <File Path="estate.json" />
+    <File Path="user.json" />
+  </Folder>
   <Project Path="kursova/kursova.csproj" />
 </Solution>

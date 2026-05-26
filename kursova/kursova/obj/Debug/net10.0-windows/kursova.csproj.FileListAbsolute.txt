@@ -17,3 +17,8 @@ C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net1
 C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Buyer.resources
 C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Login.resources
 C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Seller.resources
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\bin\Debug\net10.0-windows\agq\kursova.resources.dll
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\agq\kursova.resources.dll
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Seller__add.resources
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Seller__add.agq.resources
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Seller__list.resources

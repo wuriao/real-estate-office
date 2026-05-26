@@ -1,6 +1,6 @@
 ﻿namespace kursova
 {
-    partial class Buyer
+    partial class Seller__list
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             SuspendLayout();
             // 
-            // Buyer
+            // Seller__list
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "Buyer";
-            Text = "Продавець";
+            Name = "Seller__list";
+            Text = "Список нерухомості";
             ResumeLayout(false);
         }
 

@@ -14,5 +14,17 @@ namespace kursova
         {
             InitializeComponent();
         }
+
+        private void Seller__button_add_Click(object sender, EventArgs e)
+        {
+            Seller__add sellerAddForm = new Seller__add();
+            sellerAddForm.ShowDialog();
+        }
+
+        private void Seller__button_list_Click_1(object sender, EventArgs e)
+        {
+            Seller__list sellerListForm = new Seller__list();
+            sellerListForm.ShowDialog();
+        }
     }
 }

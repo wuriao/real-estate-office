@@ -5,7 +5,7 @@ namespace kursova
         public Login()
         {
             InitializeComponent();
-            label1.Text = "Hello, World!";
+            label1.Text = "Реєстрація/Вхід";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -15,9 +15,17 @@ namespace kursova
 
         private void Login__button_Click(object sender, EventArgs e)
         {
+            User__data item = new User__data();
+            item.Surname = Surname__box.Text;
+            item.UserName = userName__box.Text;
+            item.Role = Buyer.Checked ? "Buyer" : "Seller";
+
+            var list = data__manager.user__load();
+            list.Add(item);
+            data__manager.user__save(list);
             if (Surname__box.Text != string.Empty && userName__box.Text != string.Empty && (Buyer.Checked || Seller.Checked))
             {
-                if(Buyer.Checked && Seller.Checked)
+                if (Buyer.Checked && Seller.Checked)
                 {
                     MessageBox.Show("Помилка: Виберіть лише одну ціль!");
                 }
@@ -34,12 +42,17 @@ namespace kursova
                     Seller sellerForm = new Seller();
                     sellerForm.ShowDialog();
                     this.Close();
-                }  
+                }
             }
             else
             {
                 MessageBox.Show("Будь ласка, заповніть всі поля!");
             }
         }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

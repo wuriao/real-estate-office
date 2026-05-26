@@ -8,12 +8,11 @@ using System.Windows.Forms;
 
 namespace kursova
 {
-    public partial class Buyer : Form
+    public partial class Seller__list : Form
     {
-        public Buyer()
+        public Seller__list()
         {
             InitializeComponent();
         }
-
     }
 }

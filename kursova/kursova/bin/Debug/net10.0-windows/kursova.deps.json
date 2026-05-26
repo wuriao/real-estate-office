@@ -9,6 +9,11 @@
       "kursova/1.0.0": {
         "runtime": {
           "kursova.dll": {}
+        },
+        "resources": {
+          "agq/kursova.resources.dll": {
+            "locale": "agq"
+          }
         }
       }
     }
