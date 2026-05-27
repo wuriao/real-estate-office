@@ -1,65 +1,20 @@
 [
   {
-    "Type_estate": "",
-    "Rent_sell": "",
-    "Price": 2,
-    "Area": 4,
-    "Rooms": 1
-  },
-  {
-    "Type_estate": "\u0414\u0456\u043B\u044F\u043D\u043A\u0430",
-    "Rent_sell": "\u041E\u0440\u0435\u043D\u0434\u0430",
-    "Price": 124000,
-    "Area": 13,
-    "Rooms": 4
-  },
-  {
-    "Type_estate": "\u0414\u0456\u043B\u044F\u043D\u043A\u0430",
-    "Rent_sell": "\u041A\u0443\u043F\u0456\u0432\u043B\u044F",
-    "Price": 2341,
-    "Area": 13,
-    "Rooms": 34
-  },
-  {
-    "Type_estate": "\u0414\u0456\u043B\u044F\u043D\u043A\u0430",
-    "Rent_sell": "\u041A\u0443\u043F\u0456\u0432\u043B\u044F",
-    "Price": 524,
-    "Area": 542,
-    "Rooms": 2
-  },
-  {
-    "Type_estate": "\u0414\u0456\u043B\u044F\u043D\u043A\u0430",
-    "Rent_sell": "Seller__sell",
-    "Price": 42,
-    "Area": 42,
-    "Rooms": 2
-  },
-  {
-    "Type_estate": "\u041A\u0432\u0430\u0440\u0442\u0438\u0440\u0430",
-    "Rent_sell": "Seller__rent",
-    "Price": 13,
-    "Area": 34,
-    "Rooms": 13
-  },
-  {
+    "Seller__Name": "fsgs",
+    "Seller__Surname": "gfdsf",
     "Type_estate": "Seller__sector",
-    "Rent_sell": "Seller__rent",
-    "Price": 423,
-    "Area": 2,
-    "Rooms": 4
-  },
-  {
-    "Type_estate": "Seller__house",
     "Rent_sell": "Seller__sell",
-    "Price": 543,
-    "Area": 2,
-    "Rooms": 2
-  },
-  {
-    "Type_estate": "Seller__sector",
-    "Rent_sell": "Seller__rent",
-    "Price": 543,
-    "Area": 1,
+    "Price": 432424,
+    "Area": 23,
     "Rooms": 0
+  },
+  {
+    "Seller__Name": "fg",
+    "Seller__Surname": "gg",
+    "Type_estate": "Seller__flat",
+    "Rent_sell": "Seller__rent",
+    "Price": 40000,
+    "Area": 5,
+    "Rooms": 1
   }
 ]

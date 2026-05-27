@@ -4,6 +4,9 @@
     <Compile Update="Buyer.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Buyer__list.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Seller__list.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -15,6 +18,12 @@
     </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Estate__card_buyer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Estate__card_seller.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

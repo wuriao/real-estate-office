@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Windows.Forms;
 
@@ -37,6 +38,8 @@ namespace kursova
             //else if (Seller__sell.Checked) Selected_rent_sell = Seller__sell.Text;
 
             Estate__data characeristic = new Estate__data();
+            characeristic.Seller__Name = CurrentSession.CurrentUser.UserName;
+            characeristic.Seller__Surname = CurrentSession.CurrentUser.Surname;
             characeristic.Type_estate = Selected_type;
             /*if(Seller__sector.Checked)
             {
@@ -84,6 +87,11 @@ namespace kursova
         }
 
         private void Seller_label_rooms_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Seller__sell_CheckedChanged(object sender, EventArgs e)
         {
 
         }

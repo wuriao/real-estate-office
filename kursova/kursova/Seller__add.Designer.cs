@@ -148,6 +148,7 @@
             Seller__sell.TabIndex = 9;
             Seller__sell.Text = "Купівля";
             Seller__sell.UseVisualStyleBackColor = true;
+            Seller__sell.CheckedChanged += Seller__sell_CheckedChanged;
             // 
             // Seller_price
             // 

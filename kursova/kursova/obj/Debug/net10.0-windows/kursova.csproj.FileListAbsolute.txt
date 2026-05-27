@@ -22,3 +22,6 @@ C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net1
 C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Seller__add.resources
 C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Seller__add.agq.resources
 C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Seller__list.resources
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Buyer__list.resources
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.Estate__card_buyer.resources
+C:\Users\Liza\Documents\GitHub\real-estate-office\kursova\kursova\obj\Debug\net10.0-windows\kursova.UserControl1.resources

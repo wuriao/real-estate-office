@@ -26,13 +26,20 @@ namespace kursova
         public string UserName { get; set; }
         public string Role { get; set; }
     };
+    public static class CurrentSession
+    {
+        public static User__data CurrentUser { get; set; }
+    }
     public class Estate__data
     {
+        public string Seller__Name { get; set; }
+        public string Seller__Surname { get; set; }
         public string Type_estate { get; set; }
         public string Rent_sell { get; set; }
         public double Price { get; set; }
         public double Area { get; set; }
         public int Rooms { get; set; }
+
 
     }
     public class data__manager

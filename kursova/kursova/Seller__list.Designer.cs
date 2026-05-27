@@ -28,18 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Seller_flowLayoutPanel1 = new FlowLayoutPanel();
             SuspendLayout();
+            // 
+            // Seller_flowLayoutPanel1
+            // 
+            Seller_flowLayoutPanel1.Location = new Point(12, 12);
+            Seller_flowLayoutPanel1.Name = "Seller_flowLayoutPanel1";
+            Seller_flowLayoutPanel1.Size = new Size(876, 426);
+            Seller_flowLayoutPanel1.TabIndex = 0;
             // 
             // Seller__list
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(900, 450);
+            Controls.Add(Seller_flowLayoutPanel1);
             Name = "Seller__list";
-            Text = "Список нерухомості";
+            Text = "Додані об'єкти нерухомості";
+            Load += Seller__list_Load;
             ResumeLayout(false);
         }
 
         #endregion
+
+        private FlowLayoutPanel Seller_flowLayoutPanel1;
     }
 }

@@ -19,6 +19,7 @@ namespace kursova
             item.Surname = Surname__box.Text;
             item.UserName = userName__box.Text;
             item.Role = Buyer.Checked ? "Buyer" : "Seller";
+            CurrentSession.CurrentUser = item;
 
             var list = data__manager.user__load();
             list.Add(item);
@@ -32,7 +33,7 @@ namespace kursova
                 if (Buyer.Checked)
                 {
                     this.Hide();
-                    Buyer buyerForm = new Buyer();
+                    Buyer__list buyerForm = new Buyer__list();
                     buyerForm.ShowDialog();
                     this.Close();
                 }
