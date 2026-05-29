@@ -54,6 +54,8 @@ namespace kursova
                 characeristic.Type_estate = "Seller__house";
             }*/
             characeristic.Rent_sell = Seller__rent.Checked ? "Seller__rent" : "Seller__sell";
+            characeristic.Distric = Seller__distric.SelectedItem.ToString();
+            characeristic.Address = Seller__address.Text;
             characeristic.Price = double.Parse(Seller_price.Text);
             characeristic.Area = double.Parse(Seller_area.Text);
             characeristic.Rooms = int.Parse(Seller_rooms.Text);
@@ -95,5 +97,82 @@ namespace kursova
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Seller__add_Load(object sender, EventArgs e)
+        {
+            Seller__distric.Items.Clear();
+
+            Seller__distric.Items.Add(" ");
+            Seller__distric.Items.Add("Індустріальний район");
+            Seller__distric.Items.Add("Київський район");
+            Seller__distric.Items.Add("Неми́шлянський район");
+            Seller__distric.Items.Add("Новобаварський район");
+            Seller__distric.Items.Add("Основ'янський район");
+            Seller__distric.Items.Add("Салтівський район");
+            Seller__distric.Items.Add("Слобідський район");
+            Seller__distric.Items.Add("Холодногірський район");
+            Seller__distric.Items.Add("Шевченківський район");
+
+            Seller__distric.SelectedIndex = 0;
+        }
+
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Seller__house_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Seller__rent_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Seller__address_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+
+            bool isAllowed = char.IsControl(l) ||
+                             (l >= 'А' && l <= 'Я') ||
+                             (l >= 'а' && l <= 'я') ||
+                             "іІїЇєЄґҐ .,'-1234567890".Contains(l);
+
+            if (!isAllowed)
+            {
+                e.Handled = true;
+            }
+        }
+        private void Seller_price_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+
+            bool isAllowed = char.IsControl(l) ||
+                             "12304567890,".Contains(l);
+
+            if (!isAllowed)
+            {
+                e.Handled = true;
+            }
+        }
+        /*private void Seller_area_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+
+            bool isAllowed = char.IsControl(l) ||
+                             "12304567890,".Contains(l);
+
+            if (!isAllowed)
+            {
+                e.Handled = true;
+            }
+        }*/
     }
 }

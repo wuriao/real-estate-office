@@ -1,332 +1,137 @@
 [
   {
-    "Surname": "4523",
-    "UserName": "252",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "543",
-    "UserName": "53445",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "53",
-    "UserName": "535",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043D\u0443\u043D\u0443\u0435",
-    "UserName": "\u0443\u043D\u0435\u043D",
+    "Surname": "\u0434\u0435-\u0416\u043C\u0435\u043D\u043A\u043E",
+    "UserName": "\u041F\u0435\u0442\u0440\u043E",
     "Role": "Seller"
   },
   {
-    "Surname": "\u043D\u0443\u043D\u0443\u0435",
-    "UserName": "\u0443\u043D\u0435\u043D",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rs",
-    "UserName": "eww",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "2524",
-    "UserName": "252",
+    "Surname": "\u0411\u043E\u0439\u043A\u043E",
+    "UserName": "\u0414\u0430\u0440\u0027\u044F",
     "Role": "Seller"
   },
   {
-    "Surname": "4223",
-    "UserName": "23",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "234",
-    "UserName": "234",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "\u043A\u0446",
-    "UserName": "\u043A\u0446",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "trwt",
-    "UserName": "wrtwrtw",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "423",
-    "UserName": "424",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "52",
-    "UserName": "52",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "eq",
-    "UserName": "eqe",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "34",
-    "UserName": "42",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rwre",
-    "Role": "Seller"
-  },
-  {
-    "Surname": "hsd",
-    "UserName": "hdhd",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "gwstwtrw",
+    "Surname": "",
     "UserName": "",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "gwstwtrw",
-    "UserName": "tertre",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u0446\u044B\u0435\u043F",
-    "UserName": "\u043F\u0435\u044B\u0435\u043F\u0446\u044B",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "tag",
-    "UserName": "fgag",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "fgdsfgds",
-    "UserName": "fgsfgsf",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "fsfs",
-    "UserName": "fdsfdsdf",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "ywyr",
-    "UserName": "yeyrey",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "ter",
-    "UserName": "tetere",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "gwrg",
-    "UserName": "rwgrw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u0430\u044B\u0432\u0444\u0430",
-    "UserName": "\u0444\u0430\u0444\u0432\u0430",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "fasf",
-    "UserName": "afa",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u0430\u044B\u0432\u0430\u0444\u044B",
-    "UserName": "\u0430\u0432\u044B\u0432\u0430\u044B",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "dsgfs",
-    "UserName": "sfgsg",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "tgwrsg",
-    "UserName": "sgfsfg",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "grs",
-    "UserName": "gsffg",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u0430\u043F\u0456\u0432\u043F",
-    "UserName": "\u043F\u0456\u0432\u043F\u0456\u0430",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u0430\u043F\u044B\u0432\u0430\u043F\u0432",
-    "UserName": "\u0430\u044B\u0430",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u044B\u043F\u0430\u044B\u043F\u0430",
-    "UserName": "\u043F\u044B\u0430\u0430\u043F\u044B\u044B",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u044B\u043F\u044B",
-    "UserName": "\u043F\u0430\u044B\u0430\u043F\u044B",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "tsgf",
-    "UserName": "gsgd",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u0430\u0432\u0444\u0430\u0432",
-    "UserName": "\u0444\u044B\u0432\u0430\u0444\u044B",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u0430\u0432\u043F",
-    "UserName": "\u043F\u0430\u0456\u043F\u0430\u0456",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u0432\u043F",
-    "UserName": "\u043F\u0430\u0432\u043F\u0432\u0430",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u0430\u0456\u0432\u0430\u0432",
-    "UserName": "\u0430\u0432\u0444\u0456\u0432\u0430\u0444",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u0432\u0456\u043F",
-    "UserName": "\u043F\u0456\u0430\u0456\u0430",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u0430\u043F\u0456\u0432\u043F\u0432",
-    "UserName": "\u043F\u0430\u0456\u0432\u0430\u0432",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "bcbxb",
-    "UserName": "bxv",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "fdfdsfg",
-    "UserName": "fsgs",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u0430\u043F",
-    "UserName": "\u043F\u0430\u0432\u0430",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043F\u0430\u0456\u0430\u043F",
-    "UserName": "\u043F\u0432\u043F\u0432\u0430",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "gfdsf",
-    "UserName": "fsgs",
     "Role": "Seller"
   },
   {
-    "Surname": "trwr",
-    "UserName": "rtwrtw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "fdsafd",
-    "UserName": "afda",
+    "Surname": "\u0411\u043E\u0439\u043A\u043E",
+    "UserName": "\u041F\u0435\u0442\u0440\u043E",
     "Role": "Seller"
   },
   {
-    "Surname": "gg",
-    "UserName": "fg",
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u043E\u0432\u0438\u0447",
     "Role": "Seller"
   },
   {
-    "Surname": "rew",
-    "UserName": "rew",
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
+  },
+  {
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
     "Role": "Buyer"
   },
   {
-    "Surname": "\u0435\u0443\u0446",
-    "UserName": "\u0435\u043A\u0443",
-    "Role": "Buyer"
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
   },
   {
-    "Surname": "tsr",
-    "UserName": "sgf",
-    "Role": "Buyer"
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
   },
   {
-    "Surname": "ee",
-    "UserName": "tret",
-    "Role": "Buyer"
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
   },
   {
-    "Surname": "rew",
-    "UserName": "we",
-    "Role": "Buyer"
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
   },
   {
-    "Surname": "tew",
-    "UserName": "rew",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "\u043A\u0446\u043A",
-    "UserName": "\u0446\u043A\u0446\u0443",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rw",
-    "UserName": "rw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rw",
-    "Role": "Buyer"
-  },
-  {
-    "Surname": "rew",
-    "UserName": "rw",
-    "Role": "Buyer"
+    "Surname": "\u0411\u0443\u0440\u044F\u043A",
+    "UserName": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Role": "Seller"
   }
 ]

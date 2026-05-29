@@ -1,6 +1,6 @@
 ﻿namespace kursova
 {
-    partial class UserControl1
+    partial class Estate__card_seller
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -91,6 +91,7 @@
             button1.TabIndex = 18;
             button1.Text = "Видалити";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -100,6 +101,7 @@
             button2.TabIndex = 19;
             button2.Text = "Редагувати";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -109,11 +111,13 @@
             button3.TabIndex = 20;
             button3.Text = "Детальніше";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // UserControl1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BorderStyle = BorderStyle.FixedSingle;
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -123,7 +127,7 @@
             Controls.Add(Estate__card_seller_area);
             Controls.Add(Estate__card_seller_price);
             Name = "UserControl1";
-            Size = new Size(741, 216);
+            Size = new Size(798, 214);
             ResumeLayout(false);
             PerformLayout();
         }

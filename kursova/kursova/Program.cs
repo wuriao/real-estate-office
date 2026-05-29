@@ -36,6 +36,8 @@ namespace kursova
         public string Seller__Surname { get; set; }
         public string Type_estate { get; set; }
         public string Rent_sell { get; set; }
+        public string Distric { get; set; }
+        public string Address { get; set; }
         public double Price { get; set; }
         public double Area { get; set; }
         public int Rooms { get; set; }

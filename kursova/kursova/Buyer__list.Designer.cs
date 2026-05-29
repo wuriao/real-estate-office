@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            Buyer__list_distric = new ComboBox();
+            label9 = new Label();
             label8 = new Label();
             label7 = new Label();
             label6 = new Label();
@@ -56,6 +58,8 @@
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(Buyer__list_distric);
+            panel1.Controls.Add(label9);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(label6);
@@ -78,13 +82,30 @@
             panel1.Controls.Add(Buyer__list_set_filter);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(238, 512);
+            panel1.Size = new Size(238, 577);
             panel1.TabIndex = 0;
+            // 
+            // Buyer__list_distric
+            // 
+            Buyer__list_distric.FormattingEnabled = true;
+            Buyer__list_distric.Location = new Point(3, 229);
+            Buyer__list_distric.Name = "Buyer__list_distric";
+            Buyer__list_distric.Size = new Size(230, 28);
+            Buyer__list_distric.TabIndex = 21;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(3, 206);
+            label9.Name = "label9";
+            label9.Size = new Size(52, 20);
+            label9.TabIndex = 20;
+            label9.Text = "Район";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(152, 375);
+            label8.Location = new Point(152, 428);
             label8.Name = "label8";
             label8.Size = new Size(26, 20);
             label8.TabIndex = 19;
@@ -93,7 +114,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(152, 342);
+            label7.Location = new Point(152, 395);
             label7.Name = "label7";
             label7.Size = new Size(26, 20);
             label7.TabIndex = 18;
@@ -102,7 +123,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(152, 276);
+            label6.Location = new Point(152, 329);
             label6.Name = "label6";
             label6.Size = new Size(33, 20);
             label6.TabIndex = 17;
@@ -111,7 +132,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(152, 243);
+            label5.Location = new Point(152, 296);
             label5.Name = "label5";
             label5.Size = new Size(33, 20);
             label5.TabIndex = 16;
@@ -119,7 +140,7 @@
             // 
             // Buyer__list_rooms_to
             // 
-            Buyer__list_rooms_to.Location = new Point(21, 462);
+            Buyer__list_rooms_to.Location = new Point(21, 515);
             Buyer__list_rooms_to.Name = "Buyer__list_rooms_to";
             Buyer__list_rooms_to.PlaceholderText = "до";
             Buyer__list_rooms_to.Size = new Size(125, 27);
@@ -127,7 +148,7 @@
             // 
             // Buyer__list_rooms_from
             // 
-            Buyer__list_rooms_from.Location = new Point(21, 429);
+            Buyer__list_rooms_from.Location = new Point(21, 482);
             Buyer__list_rooms_from.Name = "Buyer__list_rooms_from";
             Buyer__list_rooms_from.PlaceholderText = "від";
             Buyer__list_rooms_from.Size = new Size(125, 27);
@@ -136,7 +157,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(3, 406);
+            label4.Location = new Point(3, 459);
             label4.Name = "label4";
             label4.Size = new Size(119, 20);
             label4.TabIndex = 13;
@@ -144,7 +165,7 @@
             // 
             // Buyer__list_area_to
             // 
-            Buyer__list_area_to.Location = new Point(21, 372);
+            Buyer__list_area_to.Location = new Point(21, 425);
             Buyer__list_area_to.Name = "Buyer__list_area_to";
             Buyer__list_area_to.PlaceholderText = "до";
             Buyer__list_area_to.Size = new Size(125, 27);
@@ -152,7 +173,7 @@
             // 
             // Buyer__list_area_from
             // 
-            Buyer__list_area_from.Location = new Point(21, 339);
+            Buyer__list_area_from.Location = new Point(21, 392);
             Buyer__list_area_from.Name = "Buyer__list_area_from";
             Buyer__list_area_from.PlaceholderText = "від";
             Buyer__list_area_from.Size = new Size(125, 27);
@@ -161,7 +182,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(3, 316);
+            label3.Location = new Point(3, 369);
             label3.Name = "label3";
             label3.Size = new Size(57, 20);
             label3.TabIndex = 10;
@@ -169,7 +190,7 @@
             // 
             // Buyer__list_price_to
             // 
-            Buyer__list_price_to.Location = new Point(21, 273);
+            Buyer__list_price_to.Location = new Point(21, 326);
             Buyer__list_price_to.Name = "Buyer__list_price_to";
             Buyer__list_price_to.PlaceholderText = "до";
             Buyer__list_price_to.Size = new Size(125, 27);
@@ -177,7 +198,7 @@
             // 
             // Buyer__list_price_from
             // 
-            Buyer__list_price_from.Location = new Point(21, 240);
+            Buyer__list_price_from.Location = new Point(21, 293);
             Buyer__list_price_from.Name = "Buyer__list_price_from";
             Buyer__list_price_from.PlaceholderText = "від";
             Buyer__list_price_from.Size = new Size(125, 27);
@@ -186,7 +207,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(3, 217);
+            label2.Location = new Point(3, 270);
             label2.Name = "label2";
             label2.Size = new Size(41, 20);
             label2.TabIndex = 7;
@@ -266,14 +287,14 @@
             flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.Location = new Point(256, 12);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(734, 512);
+            flowLayoutPanel1.Size = new Size(734, 577);
             flowLayoutPanel1.TabIndex = 1;
             // 
             // Buyer__list
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1002, 536);
+            ClientSize = new Size(1002, 600);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel1);
             Name = "Buyer__list";
@@ -308,5 +329,7 @@
         private Label label3;
         private TextBox Buyer__list_price_to;
         private TextBox Buyer__list_price_from;
+        private ComboBox Buyer__list_distric;
+        private Label label9;
     }
 }

@@ -26,10 +26,6 @@ namespace kursova
             data__manager.user__save(list);
             if (Surname__box.Text != string.Empty && userName__box.Text != string.Empty && (Buyer.Checked || Seller.Checked))
             {
-                if (Buyer.Checked && Seller.Checked)
-                {
-                    MessageBox.Show("Помилка: Виберіть лише одну ціль!");
-                }
                 if (Buyer.Checked)
                 {
                     this.Hide();
@@ -55,5 +51,38 @@ namespace kursova
 
         }
 
+        private void Surname__box_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+
+            bool isAllowed = char.IsControl(l) ||
+                             (l >= 'А' && l <= 'Я') ||
+                             (l >= 'а' && l <= 'я') ||
+                             "іІїЇєЄґҐ '-".Contains(l);
+
+            if (!isAllowed)
+            {
+                e.Handled = true;
+            }
+        }
+        private void userName__box_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+
+            bool isAllowed = char.IsControl(l) ||
+                             (l >= 'А' && l <= 'Я') ||
+                             (l >= 'а' && l <= 'я') ||
+                             "іІїЇєЄґҐ '-".Contains(l);
+
+            if (!isAllowed)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Seller_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

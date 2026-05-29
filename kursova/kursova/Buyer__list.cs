@@ -17,6 +17,20 @@ namespace kursova
         }
         private void Buyer__list_Load(object sender, EventArgs e)
         {
+            Buyer__list_distric.Items.Clear();
+
+            Buyer__list_distric.Items.Add(" ");
+            Buyer__list_distric.Items.Add("Індустріальний район");
+            Buyer__list_distric.Items.Add("Київський район");
+            Buyer__list_distric.Items.Add("Неми́шлянський район");
+            Buyer__list_distric.Items.Add("Новобаварський район");
+            Buyer__list_distric.Items.Add("Основ'янський район");
+            Buyer__list_distric.Items.Add("Салтівський район");
+            Buyer__list_distric.Items.Add("Слобідський район");
+            Buyer__list_distric.Items.Add("Холодногірський район");
+            Buyer__list_distric.Items.Add("Шевченківський район");
+
+            Buyer__list_distric.SelectedIndex = 0;
             estates = data__manager.estate__load();
             flowLayoutPanel1.Controls.Clear();
 
@@ -58,6 +72,12 @@ namespace kursova
                 set_filter = set_filter.Where(item => item.Rent_sell == "Seller__sell").ToList();
 
             }
+
+            if (Buyer__list_distric.Text != string.Empty)
+            {
+                set_filter = set_filter.Where(item => item.Distric == Buyer__list_distric.Text).ToList();
+            }
+
             if (Buyer__list_price_from.Text != string.Empty)
             {
                 int min_price;

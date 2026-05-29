@@ -1,20 +1,35 @@
 [
   {
-    "Seller__Name": "fsgs",
-    "Seller__Surname": "gfdsf",
-    "Type_estate": "Seller__sector",
-    "Rent_sell": "Seller__sell",
-    "Price": 432424,
-    "Area": 23,
-    "Rooms": 0
-  },
-  {
-    "Seller__Name": "fg",
-    "Seller__Surname": "gg",
+    "Seller__Name": "\u041F\u0435\u0442\u0440\u043E",
+    "Seller__Surname": "\u0434\u0435-\u0416\u043C\u0435\u043D\u043A\u043E",
     "Type_estate": "Seller__flat",
     "Rent_sell": "Seller__rent",
-    "Price": 40000,
-    "Area": 5,
+    "Distric": "\u041D\u0435\u043C\u0438\u0301\u0448\u043B\u044F\u043D\u0441\u044C\u043A\u0438\u0439 \u0440\u0430\u0439\u043E\u043D",
+    "Address": "\u0412\u0443\u043B. \u0412\u0435\u043B\u043E\u0437\u043E\u0432\u043E\u0434\u0441\u044C\u043A\u0430, 5",
+    "Price": 5300,
+    "Area": 23,
     "Rooms": 1
+  },
+  {
+    "Seller__Name": "\u041F\u0435\u0442\u0440\u043E",
+    "Seller__Surname": "\u0434\u0435-\u0416\u043C\u0435\u043D\u043A\u043E",
+    "Type_estate": "Seller__house",
+    "Rent_sell": "Seller__sell",
+    "Distric": "\u0428\u0435\u0432\u0447\u0435\u043D\u043A\u0456\u0432\u0441\u044C\u043A\u0438\u0439 \u0440\u0430\u0439\u043E\u043D",
+    "Address": "\u0412\u0443\u043B. \u041D\u0430\u0443\u043A\u043E\u0432\u0430, 7",
+    "Price": 850000,
+    "Area": 64,
+    "Rooms": 1
+  },
+  {
+    "Seller__Name": "\u0414\u0430\u0440\u0027\u044F",
+    "Seller__Surname": "\u0411\u043E\u0439\u043A\u043E",
+    "Type_estate": "Seller__house",
+    "Rent_sell": "Seller__sell",
+    "Distric": "\u041E\u0441\u043D\u043E\u0432\u0027\u044F\u043D\u0441\u044C\u043A\u0438\u0439 \u0440\u0430\u0439\u043E\u043D",
+    "Address": "\u0412\u0443\u043B. \u0421\u0432\u043E\u0431\u043E\u0434\u0438, 29",
+    "Price": 5000000,
+    "Area": 123,
+    "Rooms": 5
   }
 ]

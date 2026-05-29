@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             Estate__card_buyer_type = new Label();
-            Estate__card_buyer_more_info = new Label();
             Estate__card_buyer_rent_sell = new Label();
             Estate__card_buyer_rooms = new Label();
             Estate__card_buyer_area = new Label();
             Estate__card_buyer_price = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // Estate__card_buyer_type
@@ -44,15 +44,6 @@
             Estate__card_buyer_type.Size = new Size(100, 20);
             Estate__card_buyer_type.TabIndex = 11;
             Estate__card_buyer_type.Text = "что єто такое";
-            // 
-            // Estate__card_buyer_more_info
-            // 
-            Estate__card_buyer_more_info.AutoSize = true;
-            Estate__card_buyer_more_info.Location = new Point(536, 152);
-            Estate__card_buyer_more_info.Name = "Estate__card_buyer_more_info";
-            Estate__card_buyer_more_info.Size = new Size(90, 20);
-            Estate__card_buyer_more_info.TabIndex = 10;
-            Estate__card_buyer_more_info.Text = "Детальніше";
             // 
             // Estate__card_buyer_rent_sell
             // 
@@ -90,13 +81,23 @@
             Estate__card_buyer_price.TabIndex = 6;
             Estate__card_buyer_price.Text = "прайс";
             // 
+            // button1
+            // 
+            button1.Location = new Point(519, 152);
+            button1.Name = "button1";
+            button1.Size = new Size(118, 29);
+            button1.TabIndex = 12;
+            button1.Text = "Детальніше";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Estate__card_buyer
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BorderStyle = BorderStyle.FixedSingle;
+            Controls.Add(button1);
             Controls.Add(Estate__card_buyer_type);
-            Controls.Add(Estate__card_buyer_more_info);
             Controls.Add(Estate__card_buyer_rent_sell);
             Controls.Add(Estate__card_buyer_rooms);
             Controls.Add(Estate__card_buyer_area);
@@ -112,10 +113,10 @@
         #endregion
 
         private Label Estate__card_buyer_type;
-        private Label Estate__card_buyer_more_info;
         private Label Estate__card_buyer_rent_sell;
         private Label Estate__card_buyer_rooms;
         private Label Estate__card_buyer_area;
         private Label Estate__card_buyer_price;
+        private Button button1;
     }
 }

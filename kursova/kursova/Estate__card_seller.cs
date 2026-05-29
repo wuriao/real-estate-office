@@ -8,14 +8,18 @@ using System.Windows.Forms;
 
 namespace kursova
 {
-    public partial class UserControl1 : UserControl
+    public partial class Estate__card_seller : UserControl
     {
-        public UserControl1()
+        public Action Button_delete;
+        public Action Button_edit;
+        private Estate__data curent_estate;
+        public Estate__card_seller()
         {
             InitializeComponent();
         }
         public void Set_data_seller(Estate__data estate)
         {
+            curent_estate = estate;
             //Estate__card_price.Text = $"{estate.Price} грн";
             if (estate.Type_estate == "Seller__sector")
             {
@@ -43,10 +47,32 @@ namespace kursova
                 Estate__card_seller_rent_sell.Text = "Продаж";
                 Estate__card_seller_price.Text = $"{estate.Price} грн";
             }
+
+
         }
         private void Estate__card_seller_area_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Button_delete?.Invoke();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (curent_estate != null)
+            {
+                Buyer__estate_more_info Buyer__estate_info = new Buyer__estate_more_info();
+                Buyer__estate_info.Set_data_buyer__more_info(curent_estate);
+                Buyer__estate_info.ShowDialog();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Button_edit?.Invoke();
         }
     }
 }

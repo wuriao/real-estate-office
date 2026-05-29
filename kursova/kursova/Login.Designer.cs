@@ -34,9 +34,9 @@
             label4 = new Label();
             Surname__box = new TextBox();
             userName__box = new TextBox();
-            Buyer = new CheckBox();
-            Seller = new CheckBox();
             Login__button = new Button();
+            Buyer = new RadioButton();
+            Seller = new RadioButton();
             SuspendLayout();
             // 
             // label1
@@ -86,6 +86,7 @@
             Surname__box.Name = "Surname__box";
             Surname__box.Size = new Size(165, 27);
             Surname__box.TabIndex = 4;
+            Surname__box.KeyPress += Surname__box_KeyPress;
             // 
             // userName__box
             // 
@@ -93,28 +94,6 @@
             userName__box.Name = "userName__box";
             userName__box.Size = new Size(165, 27);
             userName__box.TabIndex = 5;
-            // 
-            // Buyer
-            // 
-            Buyer.AutoSize = true;
-            Buyer.Location = new Point(386, 243);
-            Buyer.Name = "Buyer";
-            Buyer.Size = new Size(99, 24);
-            Buyer.TabIndex = 6;
-            Buyer.Text = "Покупець";
-            Buyer.TextAlign = ContentAlignment.MiddleCenter;
-            Buyer.UseVisualStyleBackColor = true;
-            // 
-            // Seller
-            // 
-            Seller.AutoSize = true;
-            Seller.Location = new Point(386, 273);
-            Seller.Name = "Seller";
-            Seller.Size = new Size(109, 24);
-            Seller.TabIndex = 7;
-            Seller.Text = "Продавець";
-            Seller.TextAlign = ContentAlignment.MiddleCenter;
-            Seller.UseVisualStyleBackColor = true;
             // 
             // Login__button
             // 
@@ -126,14 +105,37 @@
             Login__button.UseVisualStyleBackColor = true;
             Login__button.Click += Login__button_Click;
             // 
+            // Buyer
+            // 
+            Buyer.AutoSize = true;
+            Buyer.Location = new Point(386, 243);
+            Buyer.Name = "Buyer";
+            Buyer.Size = new Size(98, 24);
+            Buyer.TabIndex = 9;
+            Buyer.TabStop = true;
+            Buyer.Text = "Покупець";
+            Buyer.UseVisualStyleBackColor = true;
+            // 
+            // Seller
+            // 
+            Seller.AutoSize = true;
+            Seller.Location = new Point(386, 273);
+            Seller.Name = "Seller";
+            Seller.Size = new Size(108, 24);
+            Seller.TabIndex = 10;
+            Seller.TabStop = true;
+            Seller.Text = "Продавець";
+            Seller.UseVisualStyleBackColor = true;
+            Seller.CheckedChanged += Seller_CheckedChanged;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 656);
-            Controls.Add(Login__button);
             Controls.Add(Seller);
             Controls.Add(Buyer);
+            Controls.Add(Login__button);
             Controls.Add(userName__box);
             Controls.Add(Surname__box);
             Controls.Add(label4);
@@ -141,7 +143,6 @@
             Controls.Add(Surname);
             Controls.Add(label1);
             Name = "Login";
-            Text = "Реєстрація/Вхід";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -155,8 +156,10 @@
         private Label label4;
         private TextBox Surname__box;
         private TextBox userName__box;
-        private CheckBox Buyer;
-        private CheckBox Seller;
+        //private CheckBox Buyer;
+        //private CheckBox Seller;
         private Button Login__button;
+        private RadioButton Buyer;
+        private RadioButton Seller;
     }
 }
