@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "kursova/1.0.0": {
+        "runtime": {
+          "kursova.dll": {}
+        },
+        "resources": {
+          "agq/kursova.resources.dll": {
+            "locale": "agq"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "kursova/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

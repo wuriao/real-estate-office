@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Liza\\Documents\\GitHub\\real-estate-office\\kursova\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|c:\\users\\liza\\documents\\github\\real-estate-office\\kursova\\kursova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|solutionrelative:kursova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|c:\\users\\liza\\documents\\github\\real-estate-office\\kursova\\kursova\\seller__list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|solutionrelative:kursova\\seller__list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|c:\\users\\liza\\documents\\github\\real-estate-office\\kursova\\kursova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|solutionrelative:kursova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|c:\\users\\liza\\documents\\github\\real-estate-office\\kursova\\kursova\\estate__card_seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|solutionrelative:kursova\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|c:\\users\\liza\\documents\\github\\real-estate-office\\kursova\\kursova\\buyer__list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|C:\\Users\\Liza\\Documents\\GitHub\\real-estate-office\\kursova\\kursova\\buyer__list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16867CDC-ABF0-E442-410B-46A296B84C08}|kursova\\kursova.csproj|solutionrelative:kursova\\buyer__list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -111,13 +111,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Seller__list.cs",
               "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\real-estate-office\\kursova\\kursova\\Seller__list.cs",
               "RelativeDocumentMoniker": "kursova\\Seller__list.cs",
               "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\real-estate-office\\kursova\\kursova\\Seller__list.cs",
               "RelativeToolTip": "kursova\\Seller__list.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wCkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T12:57:20.052Z",
               "EditorCaption": ""
@@ -225,8 +225,7 @@
               "ToolTip": "C:\\Users\\Liza\\Documents\\GitHub\\real-estate-office\\kursova\\kursova\\Buyer__list.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "kursova\\Buyer__list.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T12:41:38.343Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-05-27T12:41:38.343Z"
             },
             {
               "$type": "Document",
@@ -241,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Liza\\Documents\\GitHub\\real-estate-office\\kursova\\kursova\\Program.cs",
               "RelativeDocumentMoniker": "kursova\\Program.cs",
@@ -262,8 +261,7 @@
               "RelativeToolTip": "kursova\\Buyer__confirm_box.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T09:27:18.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-29T09:27:18.806Z"
             },
             {
               "$type": "Document",
