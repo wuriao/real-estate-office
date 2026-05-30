@@ -31,5 +31,16 @@
     "Price": 5000000,
     "Area": 123,
     "Rooms": 5
+  },
+  {
+    "Seller__Name": "\u0411\u0443\u0440\u044F\u043A",
+    "Seller__Surname": "\u041F\u0435\u0442\u0440\u0435\u043D\u043A\u043E",
+    "Type_estate": "Seller__sector",
+    "Rent_sell": "Seller__sell",
+    "Distric": "\u041A\u0438\u0457\u0432\u0441\u044C\u043A\u0438\u0439 \u0440\u0430\u0439\u043E\u043D",
+    "Address": "\u0412\u0443\u043B. \u0428\u0435\u0434\u0440\u0438\u043A\u0430,5",
+    "Price": 845000,
+    "Area": 56,
+    "Rooms": 1
   }
 ]

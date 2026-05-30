@@ -28,10 +28,22 @@ namespace kursova
 
         private void Seller__button_add_add_Click(object sender, EventArgs e)
         {
-            string Selected_type = "";
-            if (Seller__sector.Checked) Selected_type = "Seller__sector";
-            else if (Seller__flat.Checked) Selected_type = "Seller__flat";
-            else if (Seller__house.Checked) Selected_type = "Seller__house";
+            if (string.IsNullOrWhiteSpace(Seller__address.Text) ||
+                Seller__distric.SelectedIndex <= 0 ||
+                !double.TryParse(Seller_price.Text, out double price) ||
+                !double.TryParse(Seller_area.Text, out double area) ||
+                !int.TryParse(Seller_rooms.Text, out int rooms) ||
+                (!Seller__sector.Checked && !Seller__flat.Checked && !Seller__house.Checked))
+            {
+                // Дополнительный сценарий 1.1.2: Вывод ошибки и сохранение формы открытой
+                MessageBox.Show("Будь ласка, заповніть усі поля коректно!", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Выходим из метода, форма не закрывается
+            }
+            string Selected_type = Seller__sector.Checked ? "Seller__sector" :
+                 Seller__flat.Checked ? "Seller__flat" : "Seller__house";
+            //if (Seller__sector.Checked) Selected_type = "Seller__sector";
+            //else if (Seller__flat.Checked) Selected_type = "Seller__flat";
+            //else if (Seller__house.Checked) Selected_type = "Seller__house";
 
             //string Selected_rent_sell = "";
             //if (Seller__rent.Checked) Selected_rent_sell = Seller__rent.Text;

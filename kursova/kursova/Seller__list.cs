@@ -44,6 +44,9 @@ namespace kursova
                         data__manager.estate__save(estates);
                         confirm_box.Visible = false;
                     };
+                    confirm_box.No += (s, e_no) => {
+                    confirm_box.Visible = false;
+                    };
                 };
                 {
                     estates.Remove(item);

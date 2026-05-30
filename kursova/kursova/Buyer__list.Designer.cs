@@ -145,6 +145,7 @@
             Buyer__list_rooms_to.PlaceholderText = "до";
             Buyer__list_rooms_to.Size = new Size(125, 27);
             Buyer__list_rooms_to.TabIndex = 15;
+            Buyer__list_rooms_to.KeyPress += Seller_price_KeyPress;
             // 
             // Buyer__list_rooms_from
             // 
@@ -153,6 +154,7 @@
             Buyer__list_rooms_from.PlaceholderText = "від";
             Buyer__list_rooms_from.Size = new Size(125, 27);
             Buyer__list_rooms_from.TabIndex = 14;
+            Buyer__list_rooms_from.KeyPress += Seller_price_KeyPress;
             // 
             // label4
             // 
@@ -170,6 +172,7 @@
             Buyer__list_area_to.PlaceholderText = "до";
             Buyer__list_area_to.Size = new Size(125, 27);
             Buyer__list_area_to.TabIndex = 12;
+            Buyer__list_area_to.KeyPress += Seller_price_KeyPress;
             // 
             // Buyer__list_area_from
             // 
@@ -178,6 +181,7 @@
             Buyer__list_area_from.PlaceholderText = "від";
             Buyer__list_area_from.Size = new Size(125, 27);
             Buyer__list_area_from.TabIndex = 11;
+            Buyer__list_area_from.KeyPress += Seller_price_KeyPress;
             // 
             // label3
             // 
@@ -195,6 +199,7 @@
             Buyer__list_price_to.PlaceholderText = "до";
             Buyer__list_price_to.Size = new Size(125, 27);
             Buyer__list_price_to.TabIndex = 9;
+            Buyer__list_price_to.KeyPress += Seller_price_KeyPress;
             // 
             // Buyer__list_price_from
             // 
@@ -203,6 +208,7 @@
             Buyer__list_price_from.PlaceholderText = "від";
             Buyer__list_price_from.Size = new Size(125, 27);
             Buyer__list_price_from.TabIndex = 8;
+            Buyer__list_price_from.KeyPress += Seller_price_KeyPress;
             // 
             // label2
             // 
